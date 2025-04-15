@@ -10,9 +10,23 @@ This is the official Pytorch implementation of our paper:"Temporal-frequency and
 * Extensive experiments have been done to validate the proposed TV-VAD. Notably, TV-VAD accomplishes unprecedented outcomes by registering 85.64% AP on XD-Violence and 88.12% AUC on UCF-Crime respectively.
 
 ## Data preparation
-* First, you need to download the datasets following:https://github.com/nwpu-zxr/VadCLIP/tree/main and put them in the direction：./dataset
+* First, you need to download the datasets following:https://github.com/nwpu-zxr/VadCLIP/tree/main and put them in the direction：```./dataset```
 * Then, you need to change the path of datasets. run:
   
   ```./list/rectify_csv.py```
 
   By the way, you need to change the path in the fourth line of the code in `./list/rectify_csv.py` to your own.
+
+## Training
+After data preparation, you can train the model on tow datasets by following command:
+
+``` python xd_train_2.py ```
+
+``` python ucf_train.py ```
+
+## Testing
+After training, you can evaluate the model on tow datasets by following command:
+
+``` python xd_test.py ```
+
+``` python ucf_test.py ```
