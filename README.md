@@ -12,4 +12,7 @@ This is the official Pytorch implementation of our paper:"Temporal-frequency and
 ## Data preparation
 * First, you need to download the datasets following:https://github.com/nwpu-zxr/VadCLIP/tree/main and put them in the direction：./dataset
 * Then, you need to change the path of datasets. run:
+  
   ```./list/rectify_csv.py```
+
+  By the way, you need to change the path in the fourth line of the code in `./list/rectify_csv.py` to your own.
