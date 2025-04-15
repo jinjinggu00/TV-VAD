@@ -8,3 +8,8 @@ This is the official Pytorch implementation of our paper:"Temporal-frequency and
 * We introduce text prompts as classification anchors and use KL divergence to optimize the similarity between extracted visual and textual classification anchors features. This Video-Text alignment module with KL divergence further improves the alignment accuracy of video events description text and video frames by leveraging the anchoring role of the textual modality.
 
 * Extensive experiments have been done to validate the proposed TV-VAD. Notably, TV-VAD accomplishes unprecedented outcomes by registering 85.64% AP on XD-Violence and 88.12% AUC on UCF-Crime respectively.
+
+## Data preparation
+* First, you need to download the datasets following:https://github.com/nwpu-zxr/VadCLIP/tree/main and put them in the direction：./dataset
+* Then, you need to change the path of datasets. run:
+  '<./list/rectify_csv.py>'
