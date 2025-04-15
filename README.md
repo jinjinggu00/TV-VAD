@@ -20,13 +20,13 @@ This is the official Pytorch implementation of our paper:"Temporal-frequency and
 ## Training
 After data preparation, you can train the model on tow datasets by following command:
 
-``` python xd_train_2.py ```
+``` python ./main/xd_train_2.py ```
 
-``` python ucf_train.py ```
+``` python ./main/ucf_train.py ```
 
 ## Testing
 After training, you can evaluate the model on tow datasets by following command:
 
-``` python xd_test.py ```
+``` python ./main/xd_test.py ```
 
-``` python ucf_test.py ```
+``` python ./main/ucf_test.py ```
